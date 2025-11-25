@@ -22,6 +22,9 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
+# Ignore missing dependencies
+TARGET_DISABLE_EPPE := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="a05snsdxx-user 14 UP1A.231005.007 A057FXXS7CYA1 release-keys"
 
